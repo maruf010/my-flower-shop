@@ -42,3 +42,97 @@
     border: 1px solid white;
     color: white;
 }
+.flower-shop .flower-text{
+    text-align: center;
+    margin: 100px 500px 50px 500px;
+}
+.flower-text h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.flower-text p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #272727a8;
+}
+.flowers-box{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 200px 50px 200px ;
+}
+.flowers-box div{
+    border-radius: 50% 50% 0 0;
+}
+.flower-5{
+    background-color: #a7216234;
+    padding: 80px 50px 0 50px;
+}
+.flower-6{
+    background-color: #0598a03d;
+    padding: 80px 70px 0 70px;
+}
+.flower-7{
+    background-color: #477d114e;
+    padding: 80px 70px 0 70px;
+}
+.flowers-box img{
+    width: 100%;
+    height: 100%;
+}
+.flowers-box h5{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+        
+    }
+    .banner-text{
+        padding: 80px 50px;
+    }
+    .banner h2{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 28px;
+    }
+    .banner p{
+        font-size: 18px;
+        line-height: 30px;
+        color: #272727a8;
+        margin-bottom: 28px;
+    }
+    .banner-img{
+        margin: 10px;
+        padding: 20px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+
+
+
+
+    .flowers-box{
+        flex-direction: column;
+        margin: 50px ;
+        
+    }
+    .flower-shop .flower-text{
+        margin: 20px;
+    }
+    .flower-text h3{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .flower-text p{
+        font-size: 15px;
+    }
+    
+    
+}
